@@ -17,4 +17,4 @@ Demonstration of mutual authentication (client cert auth) with a custom CA enfor
 6) prove the server rejects those with `scripts/client_curl.sh untrusted`
 7) Pretend to be a client and run `scripts/generate_csr.sh NAME` to put a private key and CSR in `certs/NAME/`
 8) If you trust them, run `scripts/sign_csr.sh NAME` to create a signed cert in `certs/NAME/`
-9) Verify that the signed cert is accepted and the certified information is echoed back by the python
+9) Verify that the signed cert is accepted and the certified information is echoed back by the Python with `scripts/client_curl.sh NAME`
