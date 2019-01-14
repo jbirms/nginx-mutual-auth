@@ -5,6 +5,7 @@ Demonstration of mutual authentication (client cert auth) with a custom CA enfor
 
 ## requirements
 - docker
+- docker-compose
 - openssl
 
 ## demo:
