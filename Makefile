@@ -6,7 +6,6 @@ ca-cert:
 	@mkdir -p certs/root-ca
 	openssl req \
 		-x509 \
-		-config openssl-ca.cnf \
 		-newkey rsa:4096 \
 		-sha256 \
 		-nodes \
